@@ -1,0 +1,446 @@
+h3,h4,h5,h6 {
+    font-family: 'Teko';
+}
+h3 {
+    font-size: 51px; 
+}
+h4 {
+    font-size: 29px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 21px;
+}
+/* Forum Banner Css Start Here */
+.forum-banner {
+    height: 350px !important;
+    background-position: bottom;
+}
+.forum {
+    background-color: #000;
+    padding: 60px 0;
+}
+@media (max-width: 576px) {
+    .termscondition h1.title {
+        font-size: 65px;
+        line-height: 75px;
+    }
+}
+@media (max-width: 480px) {
+    .termscondition-banner {
+        height: 200px !important;
+    }
+    .termscondition h1.title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+/* Forum Banner Css Start Here */
+
+/* Forum Section css Start Here */
+.forum {
+    background-color: #000;
+    padding: 60px 0;
+}
+.forum .head {
+    text-align: center;
+    padding-bottom: 70px;
+}
+/* Question Css Start Here */
+.forum .quesAns .QuestionDv {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 50px 50px;
+}
+.forum .quesAns .QuestionDv .img-box {
+    min-width: 130px;
+    text-align: center;
+}
+.forum .quesAns .QuestionDv .img-box figure img {
+    width: 100%;
+}
+.forum .quesAns .QuestionDv .img-box h5 {
+    margin: 0;
+    padding-top: 15px;
+}
+.forum .quesAns .QuestionDv  .contentDv {
+    padding-left: 35px;
+}
+.forum .quesAns .QuestionDv  .contentDv .heading h5 {
+    color: #747474;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.forum .quesAns .QuestionDv .contentDv .title h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.forum .quesAns .QuestionDv .contentDv .description p {
+    font-size: 15px;
+}
+.forum .quesAns .QuestionDv .contentDv  .optionsDv {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.forum .quesAns .QuestionDv .contentDv .optionsDv .likeDv {
+    min-width: 70px;
+}
+.forum .quesAns .QuestionDv .contentDv .optionsDv p {
+    color: #747474;
+    font-family: 'Teko';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* Question Css End Here */
+
+/* Answer Css Start Here */
+.forum .quesAns .AnswerBox {
+    background: #141414;
+    padding: 0px 50px 50px;
+    position: relative;
+}
+.forum .quesAns .answerDv {
+    display: flex;
+    align-items: flex-end;
+    padding: 50px 0;
+    position: relative;
+}
+.forum .quesAns .answerDv .img-box {
+    min-width: 130px;
+    text-align: center;
+    position: relative;
+}
+.forum .quesAns .answerDv .img-box .vertical-line {
+    background: #fff;
+    width: 4px;
+    height: 3.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    top: -5rem;
+}
+.forum .quesAns .answerDv .img-box figure img {
+    width: 100%;
+}
+.forum .quesAns .answerDv .img-box h5 {
+    margin: 0;
+    padding-top: 15px;
+}
+.forum .quesAns .answerDv  .contentDv {
+    padding-left: 35px;
+}
+.forum .quesAns .answerDv  .contentDv .heading h5 {
+    color: #747474;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.forum .quesAns .answerDv .contentDv .title h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.forum .quesAns .answerDv .contentDv .description p {
+    font-size: 15px;
+}
+.forum .quesAns .answerDv .contentDv  .optionsDv {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.forum .quesAns .answerDv .contentDv .optionsDv .likeDv {
+    min-width: 70px;
+}
+.forum .quesAns .answerDv .contentDv .optionsDv p {
+    color: #747474;
+    font-family: 'Teko';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* Answer Css End Here */
+
+/* Reply Css Start Here */
+.forum .quesAns .ReplyDv {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 50px;
+}
+.forum .quesAns .ReplyDv .img-box {
+    min-width: 130px;
+    text-align: center;
+}
+.forum .quesAns .ReplyDv .img-box .imgFlex {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.forum .quesAns .ReplyDv .img-box .imgFlex .box-line {
+    background: #0000;
+    height: 80px;
+    width: 70px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    position: relative;
+    top: -60px;
+    margin-right: 20px;
+}
+.forum .quesAns .ReplyDv .img-box figure img {
+    width: 100%;
+}
+.forum .quesAns .ReplyDv .img-box h5 {
+    margin: 0;
+    padding-top: 15px;
+}
+.forum .quesAns .ReplyDv  .contentDv {
+    padding-left: 35px;
+}
+.forum .quesAns .ReplyDv  .contentDv .heading h5 {
+    color: #747474;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.forum .quesAns .ReplyDv .contentDv .title h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.forum .quesAns .ReplyDv .contentDv .description p {
+    font-size: 15px;
+}
+.forum .quesAns .ReplyDv .contentDv  .optionsDv {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.forum .quesAns .ReplyDv .contentDv .optionsDv .likeDv {
+    min-width: 70px;
+}
+.forum .quesAns .ReplyDv .contentDv .optionsDv p {
+    color: #747474;
+    font-family: 'Teko';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.forum .quesAns .AnswerBox .commentBox .userimg {
+    min-width: 120px;
+    position: relative;
+}
+.forum .quesAns .AnswerBox .commentBox .userimg .vertical-line {
+    background: #fff;
+    width: 4px;
+    height: 3.5rem;
+    position: absolute;
+    left: -20px;
+    right: 0;
+    margin: 0px auto;
+    top: -4.5rem;
+}
+.forum .quesAns .AnswerBox .commentBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 150px 0;
+}
+.forum .quesAns .AnswerBox .commentBox .Gocomment {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.forum .quesAns .AnswerBox .commentBox .Gocomment .inputDv {
+    width: 100%;
+    padding: 0 0px 0 20px;
+}
+.forum .quesAns .AnswerBox .commentBox .Gocomment .inputDv input {
+    width: 100%;
+    background: #fff;
+    border: 0;
+    height: 60px;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Poppins';
+    outline: none;
+    padding: 0 20px;
+}
+.forum .quesAns .AnswerBox .commentBox .Gocomment .submitDv button {
+    padding: 17px 20px 17px 0px;
+    background: #fff;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+/* Reply Css End Here */
+
+/* Comment Box Css Start Here */
+.forum .quesAns .last-comment-box .commentBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 0 50px;
+}
+.forum .quesAns .last-comment-box .commentBox .Gocomment {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.forum .quesAns .last-comment-box .commentBox .Gocomment .inputDv {
+    width: 100%;
+    padding: 0 0px 0 20px;
+}
+.forum .quesAns .last-comment-box .commentBox .Gocomment .inputDv input {
+    width: 100%;
+    background: #000;
+    border: 2px solid #fff;
+    height: 60px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins';
+    outline: none;
+    padding: 0 20px;
+}
+.forum .quesAns .last-comment-box .commentBox .Gocomment .submitDv button {
+    padding: 10px 0px 10px 0px;
+    background: #000;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    margin-left: -50px;
+}
+.forum .quesAns .last-comment-box .commentBox .Gocomment .submitDv button img {
+    filter: brightness(0) invert(1);
+}
+/* Comment Box Css End Here */
+
+/* Horizontal Line */
+.horizontal-line {
+    background: #141414;
+    padding: 1px;
+}
+/* Horizontal Line */
+
+@media(max-width: 1101px) {
+    .forum .quesAns .ReplyDv .img-box h5 {
+        font-size: 22px;
+    }
+    .forum .quesAns .AnswerBox .commentBox {
+        padding: 90px 125px 0;
+    }
+}
+@media (max-width: 992px) {
+    .forum .quesAns .ReplyDv {
+        padding: 0px 0px;
+    }
+    .forum .quesAns .AnswerBox .commentBox {
+        padding: 90px 60px 0;
+    }   
+}
+@media (max-width: 576px) {
+    .forum-banner {
+        height: 200px !important;
+    }
+    .universal-banner h1.title {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .forum .head {
+        padding-bottom: 30px;
+    }
+    .forum .quesAns .QuestionDv {
+        padding: 0px 0px 50px;
+    }
+    .forum .quesAns .contentDv .title h4 {
+        font-size:20px;
+    }
+    .forum .quesAns .QuestionDv .contentDv .description p {
+        font-size: 13px;
+    }
+    .forum .quesAns .AnswerBox {
+        padding: 0px 10px 30px;
+    }
+    .forum .quesAns .answerDv .contentDv .description p {
+        font-size: 13px;
+    }
+    .forum .quesAns .ReplyDv .img-box .imgFlex .box-line {
+        display: none;
+    }
+    .forum .quesAns .AnswerBox .commentBox {
+        padding: 90px 0px 0;
+    }
+    .forum .quesAns .last-comment-box .commentBox {
+        padding: 50px 0px 0 0px;
+    }  
+}
+@media (max-width: 480px) {
+    .forum-banner {
+        height: 120px !important;
+    }
+    .universal-banner h1.title {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .forum .head h3 {
+        font-size: 35px;
+    }
+    .forum {
+        padding: 30px 0;
+    }
+    .forum .quesAns .QuestionDv {
+        display: block;
+    }
+    .forum .quesAns .QuestionDv .img-box {
+        padding: 0 90px 30px;
+    }
+    .forum .quesAns .QuestionDv .contentDv {
+        padding-left: 5px;
+    }
+    .forum .quesAns .answerDv {
+        display: block;
+    }
+    .forum .quesAns .answerDv .img-box {
+        padding: 0 70px;
+    }
+    .forum .quesAns .answerDv .img-box figure img {
+        width: 50%;
+    }
+    .forum .quesAns .answerDv .contentDv {
+        padding: 30px 0 0 0;
+    }
+    .forum .quesAns .QuestionDv .img-box figure img {
+        width: 50%;
+    }
+    .forum .quesAns .ReplyDv .img-box figure img {
+        width: 50%;
+    }
+    .forum .quesAns .ReplyDv {
+        display: block;
+    }
+    .contentDv {
+        padding-left: 0px !important;
+    }
+    .forum .quesAns .ReplyDv .img-box .imgFlex {
+        display: block;
+        padding: 0 70px 20px;
+    }
+    .forum .quesAns .AnswerBox .commentBox .userimg .vertical-line {
+        display: none;
+    }
+    .forum .quesAns .AnswerBox .commentBox {
+        padding: 30px 0px 0;
+    }
+    .forum .quesAns .AnswerBox .commentBox .userimg {
+        display: none;
+    }
+    .forum .quesAns .AnswerBox .commentBox .Gocomment .inputDv {
+        padding: 0 0px 0 0px;
+    }
+    .forum .quesAns .AnswerBox .commentBox .Gocomment .submitDv button {
+        padding: 16.6px 20px 16.9px 0px; 
+    }
+    .forum .quesAns .last-comment-box .commentBox .userimg {
+        display: none;
+    }
+    .forum .quesAns .last-comment-box .commentBox .Gocomment .inputDv {
+        padding: 0 0px 0 0px;
+    }
+}
+/* Forum Section css End Here */

@@ -1,0 +1,271 @@
+/* Shop css Start Here */
+.shopProducts {
+    padding: 80px 0;
+    background: #000;
+}
+.shopProducts .productBox {
+    margin: 0 10px;
+}
+.shopProducts .productBox .images.box {
+    position: relative;
+}
+.shopProducts .productBox .images.box figure img {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.shopProducts .productBox .products-items {
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    width: 15%;
+    padding-left: 15px;
+}
+.shopProducts .productBox .products-items ul.items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.shopProducts .productBox .products-items ul.items li:first-child {
+    margin-bottom: 20px;
+}
+.shopProducts .product-desc {
+    padding: 15px 0;
+}
+.shopProducts .product-desc .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.shopProducts .product-desc h5 {
+    font-size: 30px;
+    font-weight: 100;
+}
+.shopProducts .product-desc .name h5 {
+    margin-bottom: 0;
+    background: #000;
+    padding: 0 10px;
+    position: relative;
+}
+.shopProducts .product-desc h5 a {
+    color:#fff;
+    text-decoration:none;
+}
+/*.shopProducts .product-desc h5 A {*/
+/*    COLOR: #FFF;*/
+/*}*/
+.shopProducts .product-desc .name:before {
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+}
+.shopProducts .product-desc .rating figure img {
+    width: 120px;
+    padding: 4px 0;
+}
+.shopProducts .breadcrumbs ul.links {
+    display: flex;
+    list-style: none;
+}
+.shopProducts .breadcrumbs ul.links li a {
+    color: #7D8286;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.shopProducts .breadcrumbs ul.links li.active a {
+    color: #fff;
+}
+.shopProducts .breadcrumbs ul.links li span {
+    color: #7D8286;
+    padding: 0 15px;
+}
+@media (max-width: 1101px) {
+    .shopProducts .product-desc .name h5 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 576px) {
+    .shopProducts .breadcrumbs {
+        padding: 20px 80px 0px 80px;
+    }
+    .shop-products {
+        padding: 0 15%;
+    }
+}
+@media (max-width: 321px) {
+    .shopProducts {
+        padding: 30px 0;
+    }
+    .shopProducts .breadcrumbs {
+        padding: 20px 0px 0px 0px;
+    }
+    .shop-products {
+        padding: 0 0%;
+    }
+}
+/* Category Box */
+.shopProducts .categories-box {
+    background: #7D8286;
+}
+.shopProducts .categories-box ul.categories {
+    list-style: none;
+}
+.shopProducts .categories-box .categoryHead h5 {
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.shopProducts .categories-box .categoryHead {
+    background: #767B80;
+    padding: 25px 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.shopProducts .categories-box .categoryHead:before {
+    content: '';
+    background: #fff;
+    width: 2px;
+    height: 70%;
+    position: absolute;
+    left: 25px;
+    top: 16%;
+}
+.shopProducts .categories-box {
+    background: #7D8286;
+}
+.shopProducts .categories-box ul.categories {
+    list-style: none;
+}
+.shopProducts .categories-box .categoryHead h5 {
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.shopProducts .categories-box .categoryHead {
+    background: #767B80;
+    padding: 25px 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.shopProducts .categories-box .categoryHead:before {
+    content: '';
+    background: #fff;
+    width: 2px;
+    height: 70%;
+    position: absolute;
+    left: 25px;
+    top: 16%;
+}
+.shopProducts .categories-box .form-group {
+    padding: 0 12px;
+}
+.shopProducts .categories-box .form-group input.form-control {
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 50px;
+}
+.shopProducts .categories-box .form-group input.form-control::placeholder {
+    color: #7D8286;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.shopProducts .categories-box ul.categories {
+    list-style: none;
+    padding: 0 0px 10px 20px;
+}
+.shopProducts .categories-box .scroll-bar1 {
+    height: 600px;
+    overflow: auto;
+}
+.shopProducts .categories-box ul.categories li {
+    margin-bottom: 15px;
+}
+.shopProducts .categories-box ul.categories li a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    line-height: 25px;
+}
+.shopProducts .categories-box .checkDv {
+    text-align: center;
+    padding: 23px 0;
+    background: #767B80;
+}
+.shopProducts .categories-box .checkDv button.btn {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    padding: 9px 40px;
+    border-radius: 0;
+}
+/* Category Box */
+
+/* Pagination */
+.shopProducts .pagination .property h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.shopProducts .pagination {
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.shopProducts .pagination .value ul.numbering {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.shopProducts .pagination .value ul.numbering span {
+    cursor: pointer;
+}
+.shopProducts .pagination .value ul.numbering span i {
+    color: #fff;
+    padding: 0 10px;
+}
+.shopProducts .pagination .value ul.numbering li a {
+    color: #fff;
+    font-size: 16px;
+}
+.shopProducts .pagination .value ul.numbering li a {
+    padding: 0 5px;
+    margin: 0 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.shopProducts .pagination .value ul.numbering li a.last {
+    margin-right: 0;
+    padding-right: 0;
+}
+.shopProducts .pagination .value ul.numbering li.all a {
+    padding-left: 0;
+    margin-left: 0;
+}
+.shopProducts .pagination .value ul.numbering li a.active {
+    border: 1px solid #fff;
+}
+@media (max-width: 321px) {
+    .shopProducts .pagination {
+        display: block;
+        text-align: center;
+    }
+    .shopProducts .pagination .value ul.numbering {
+        justify-content: center;
+    }
+}
+/* Pagination */
+
+/* Shop css Start Here */

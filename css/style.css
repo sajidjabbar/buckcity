@@ -1,0 +1,2195 @@
+/* Font Family CDN */
+/*@import url('http://fonts.cdnfonts.com/css/blacksword');*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@100;200;300;400;500;600;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/blacksword");
+/* Font Family CDN */
+
+@font-face {
+  font-family: "Quantify";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Quantify"), url("../fonts/Quantify.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Quantify";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Quantify"), url("../fonts/Quantify.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Blacksword";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Blacksword.otf"), url("../fonts/Blacksword.otf") format("otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+figure {
+  margin-bottom: 0;
+}
+.fs-62 {
+  font-size: 62px;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Teko";
+}
+p#demo {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+h1 {
+  font-family: "Blacksword", sans-serif;
+  font-size: 97px;
+  line-height: 107px;
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 85px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 33px;
+}
+p {
+  font-family: "Poppins";
+  margin-bottom: 0;
+}
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Scroll Bar */
+
+.btn-gr {
+  background: #aeaeae;
+  color: #fff;
+  border-radius: 0;
+  font-size: 22px;
+  font-family: "Teko";
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 30px;
+  line-height: 14px;
+}
+.btn-gr:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* Sign In Modal css Start Here */
+.signin-modal .signin-box .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.text-secondary {
+  font-family: "Quantify", sans-serif;
+}
+
+/* Hide the browser's default checkbox */
+.signin-modal .signin-box .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.signin-modal .signin-box .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.signin-modal .signin-box .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.signin-modal .signin-box .container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.signin-modal .signin-box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.signin-modal .signin-box .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.signin-modal .signin-box .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.signin-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000bf;
+  z-index: 9;
+  top: 0;
+  transform: translateY(-180%);
+  transition: 0.7s;
+}
+.signin-modal .signin-box .cancel {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.signin-modal .signin-box .cancel i {
+  color: #808588;
+  font-size: 40px;
+}
+.signin-modal.show {
+  transform: translateY(0%);
+}
+.signin-modal .signin-box {
+  width: 50%;
+  background: #fff;
+  padding: 60px 100px;
+  position: relative;
+}
+.signin-modal .signin-box h3 {
+  color: #808588;
+  padding-bottom: 20px;
+}
+.signin-modal .signin-box .form-group label {
+  font-size: 17px;
+  color: #808587;
+  font-family: "Teko";
+  font-weight: 500;
+}
+.signin-modal .signin-box .form-group .form-control {
+  height: 50px;
+  border-radius: 0;
+  background: #ebebeb;
+  border: 0;
+  color: #000;
+}
+.signin-modal .signin-box .optionDv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 40px;
+}
+.signin-modal .signin-box .optionDv .forgotDv a {
+  color: #808588;
+  font-size: 15px;
+  font-family: "Teko";
+  font-weight: 600;
+}
+.signin-modal .signin-box .optionDv .rememberDv {
+  width: 50%;
+}
+.signin-modal .signin-box .optionDv .forgotDv {
+  width: 50%;
+  text-align: right;
+}
+.signin-modal .signin-box .optionDv .rememberDv label.container {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 15px;
+  color: #808588;
+  font-family: "Teko";
+  font-weight: 600;
+}
+.signin-modal .signin-box .btn-group button {
+  background: #808588;
+  border: 0;
+  padding: 9px 45px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-family: "Teko";
+  color: #fff;
+  cursor: pointer;
+}
+.signin-modal .signin-box .btn-group button:last-child {
+  margin: 0px;
+}
+.signin-modal .signin-box .btn-group {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .signin-modal .signin-box {
+    width: 90%;
+    padding: 60px 30px;
+  }
+}
+@media (max-width: 480px) {
+  .signin-modal .signin-box .optionDv {
+    display: block;
+  }
+  .signin-modal .signin-box .optionDv .rememberDv {
+    width: 100%;
+  }
+  .signin-modal .signin-box .optionDv .forgotDv {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .signin-modal .signin-box .btn-group {
+    display: block;
+  }
+  .signin-modal .signin-box .btn-group button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 321px) {
+  .signin-modal .signin-box {
+    width: 95%;
+    padding: 60px 20px;
+  }
+  .signin-modal .signin-box .optionDv {
+    padding: 0 0px 30px;
+  }
+  .signin-modal .signin-box .btn-group button {
+    padding: 7px 30px;
+  }
+}
+/* Sign In Modal css Start Here */
+
+/* Sign Up Modal css Start Here */
+.signup-modal .signup-box .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.signup-modal .signup-box .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.signup-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000bf;
+  z-index: 9;
+  top: 0;
+  transform: translateY(180%);
+  transition: 0.7s;
+}
+.signup-modal .signup-box .cancel {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.signup-modal .signup-box .cancel i {
+  color: #808588;
+  font-size: 40px;
+}
+.signup-modal.show {
+  transform: translateY(0%);
+}
+.signup-modal .signup-box {
+  width: 50%;
+  background: #fff;
+  padding: 60px 100px;
+  position: relative;
+}
+.signup-modal .signup-box h3 {
+  color: #808588;
+  padding-bottom: 20px;
+}
+.signup-modal .signup-box .form-group label {
+  font-size: 17px;
+  color: #808587;
+  font-family: "Teko";
+  font-weight: 500;
+}
+.signup-modal .signup-box .form-group .form-control {
+  height: 50px;
+  border-radius: 0;
+  background: #ebebeb;
+  border: 0;
+  color: #000;
+}
+.signup-modal .signup-box .btn-group button {
+  background: #808588;
+  border: 0;
+  padding: 11px 45px;
+  font-size: 19px;
+  font-family: "Teko";
+  color: #fff;
+  cursor: pointer;
+  flex: 1;
+}
+.signup-modal .signup-box .btn-group span.spacer {
+  margin: 0 20px;
+}
+.signup-modal .signup-box .btn-group {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 769px) {
+  .signup-modal .signup-box {
+    width: 80%;
+    padding: 60px 100px;
+  }
+}
+@media (max-width: 576px) {
+  .signup-modal .signup-box {
+    padding: 60px 30px;
+  }
+  .signup-modal .signup-box .form-group .form-control {
+    height: 35px;
+  }
+  .signup-modal .signup-box .form-group {
+    margin-bottom: 0;
+  }
+  .signup-modal .signup-box .form-group label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .signup-modal .signup-box .cancel {
+    top: 50px;
+  }
+  .signup-modal .signup-box {
+    padding: 20px 20px;
+  }
+  .signup-modal .signup-box .btn-group {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 321px) {
+  .signup-modal .signup-box {
+    width: 90%;
+    padding: 30px 10px;
+  }
+}
+/* Sign Up Modal css Start Here */
+
+/* Forgot Password Step1 Css Start Here */
+.ForgotpassStep1 {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  background: #00000085;
+  transition: 0.7s;
+  transform: translateX(-180%);
+}
+.ForgotpassStep1.show {
+  transform: translateX(0%);
+}
+.ForgotpassStep1 .ForgotpassStep1-box {
+  background: #ffffff;
+  padding: 50px 100px;
+  width: 40%;
+  position: relative;
+}
+.ForgotpassStep1 .ForgotpassStep1-box .cancel {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+.ForgotpassStep1 .ForgotpassStep1-box .cancel i {
+  font-size: 30px;
+  color: #808588;
+}
+.ForgotpassStep1 .ForgotpassStep1-box h3 {
+  color: #808588;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+.ForgotpassStep1 .ForgotpassStep1-box form .form-group label {
+  font-family: "Teko";
+  color: #808588;
+  font-size: 16px;
+}
+.ForgotpassStep1 .ForgotpassStep1-box form .form-group .form-control {
+  border-radius: 0;
+  background: #ebebeb;
+  border: 0;
+  height: 45px;
+}
+.ForgotpassStep1 .ForgotpassStep1-box form .btn-group button.sendCode {
+  background: #808588;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Teko";
+  width: 130px;
+  padding: 10px 0;
+  outline: none;
+  cursor: pointer;
+}
+.ForgotpassStep1 .ForgotpassStep1-box form .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+/* Forgot Password Step1 Css End Here */
+
+/* Forgot Password Step2 Css Start Here */
+.forgotpassstep2 {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  background: #00000085;
+  transition: 0.7s;
+  display: flex;
+  transform: translateX(180%);
+}
+.forgotpassstep2.show {
+  transform: translateX(0);
+}
+.forgotpassstep2.show {
+  display: flex;
+}
+.forgotpassstep2 .forgotpassstep2-box {
+  background: #ffffff;
+  padding: 50px 100px;
+  width: 40%;
+  position: relative;
+}
+.forgotpassstep2 .forgotpassstep2-box .cancel {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+.forgotpassstep2 .forgotpassstep2-box .cancel i {
+  font-size: 30px;
+  color: #808588;
+}
+.forgotpassstep2 .forgotpassstep2-box h3 {
+  color: #808588;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+.forgotpassstep2 .forgotpassstep2-box form .form-group label {
+  font-family: "Teko";
+  color: #808588;
+  font-size: 16px;
+}
+.forgotpassstep2 .forgotpassstep2-box form .form-group .form-control {
+  border-radius: 0;
+  background: #ebebeb;
+  border: 0;
+  height: 45px;
+}
+.forgotpassstep2 .forgotpassstep2-box .enterCodeDv {
+  display: flex;
+  align-items: center;
+}
+
+.forgotpassstep2 .forgotpassstep2-box .enterCodeDv input.form-control {
+  margin: 0 7px;
+}
+.forgotpassstep2 .forgotpassstep2-box form .btn-group button.sendCode {
+  background: #808588;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Teko";
+  width: 130px;
+  padding: 10px 0;
+  outline: none;
+  cursor: pointer;
+}
+.forgotpassstep2 .forgotpassstep2-box form .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+/* Forgot Password Step2 Css End Here */
+
+/* Forgot Password Step3 Css Start Here */
+.ForgotpassStep3 {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  background: #00000085;
+  transition: 0.7s;
+  transform: translateX(-180%);
+}
+.ForgotpassStep3.show {
+  transform: translateX(0%);
+}
+.ForgotpassStep3 .ForgotpassStep3-box {
+  background: #ffffff;
+  padding: 50px 100px;
+  width: 40%;
+  position: relative;
+}
+.ForgotpassStep3 .ForgotpassStep3-box .cancel {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+.ForgotpassStep3 .ForgotpassStep3-box .cancel i {
+  font-size: 30px;
+  color: #808588;
+}
+.ForgotpassStep3 .ForgotpassStep3-box h3 {
+  color: #808588;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+.ForgotpassStep3 .ForgotpassStep3-box form .form-group label {
+  font-family: "Teko";
+  color: #808588;
+  font-size: 16px;
+}
+.ForgotpassStep3 .ForgotpassStep3-box form .form-group .form-control {
+  border-radius: 0;
+  background: #ebebeb;
+  border: 0;
+  height: 45px;
+}
+.ForgotpassStep3 .ForgotpassStep3-box form .btn-group button.sendCode {
+  background: #808588;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Teko";
+  width: 130px;
+  padding: 10px 0;
+  outline: none;
+  cursor: pointer;
+}
+.ForgotpassStep3 .ForgotpassStep3-box form .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+@media (max-width: 480px) {
+  .ForgotpassStep1 .ForgotpassStep1-box {
+    width: 90%;
+    padding: 20px;
+  }
+  .forgotpassstep2 .forgotpassstep2-box {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .ForgotpassStep3 .ForgotpassStep3-box {
+    width: 90%;
+    padding: 30px;
+  }
+}
+/* Forgot Password Step3 Css End Here */
+
+/* Make AN Offer Css Start Here */
+.makeOffer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  background: #000000ed;
+  z-index: 9;
+  transform: translateX(-180%);
+  transition: 0.7s;
+}
+.makeOffer.show {
+  transform: translateX(0%);
+}
+.makeOffer .makeOffer-box {
+  width: 30%;
+  text-align: center;
+}
+.makeOffer .makeOffer-box h3 {
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Quantify", sans-serif;
+}
+.makeOffer .makeOffer-box form .form-group .form-control {
+  border-radius: 0;
+  height: 50px;
+  padding: 0 20px;
+}
+.makeOffer .makeOffer-box form .form-group .form-control::placeholder {
+  color: #c7c7c7;
+}
+.makeOffer .makeOffer-box form .btn-group button {
+  background: #808588;
+  padding: 4px 0;
+  font-weight: 600;
+  font-family: "Teko";
+  font-size: 28px;
+  cursor: pointer;
+}
+.makeOffer .makeOffer-box form .btn-group {
+  width: 100%;
+}
+.btn-secondary.active,
+.btn-secondary:active,
+.show > .btn-secondary.dropdown-toggle {
+  background-color: #000;
+}
+.btn-secondary.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-item {
+  font-family: "Poppins";
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+@media (max-width: 769px) {
+  .makeOffer .makeOffer-box {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .makeOffer .makeOffer-box {
+    width: 90%;
+  }
+  .makeOffer .makeOffer-box h3 {
+    font-size: 35px;
+  }
+}
+/* Make AN Offer Css End Here */
+
+/* Header css Start Here */
+header {
+  background: #000;
+  padding: 10px 60px;
+}
+header .logoDv figure img {
+  width: 100%;
+}
+header .navbar ul.menus {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+header .navbar ul.menus li.menu-items a {
+  color: #fff;
+  font-family: "teko";
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 16px;
+  text-decoration: none;
+  font-weight: 100;
+}
+header .btn-group button.btn-icon {
+  background: transparent;
+  border: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+header .btn-group button.btn-icon img {
+  width: 20px;
+}
+header .btn-group button.btn-icon i {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+}
+header .btn-group .dropdown .dropdown-menu {
+  margin-left: -20em !important;
+  margin-top: 1.5em !important;
+  border-radius: 0;
+  width: 23em;
+  height: auto;
+  background: #070807;
+}
+header .btn-group .dropdown .dropdown-menu .cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  border-bottom: 1px solid #ffffff85;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+header .btn-group .dropdown .dropdown-menu .cart-item .product-item {
+  display: flex;
+  align-items: center;
+}
+header
+  .btn-group
+  .dropdown
+  .dropdown-menu
+  .cart-item
+  .product-item
+  .pro-img
+  figure
+  img {
+  width: 100%;
+}
+header .btn-group .dropdown .dropdown-menu .cart-item .product-item .pro-img {
+  width: 90px;
+}
+header
+  .btn-group
+  .dropdown
+  .dropdown-menu
+  .cart-item
+  .product-item
+  .desc
+  .total {
+  display: flex;
+  align-items: center;
+}
+header
+  .btn-group
+  .dropdown
+  .dropdown-menu
+  .cart-item
+  .product-item
+  .desc
+  .total
+  .count {
+  width: 25px;
+}
+header
+  .btn-group
+  .dropdown
+  .dropdown-menu
+  .cart-item
+  .product-item
+  .desc
+  .total
+  h6 {
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 2px;
+}
+header
+  .btn-group
+  .dropdown
+  .dropdown-menu
+  .cart-item
+  .product-item
+  .desc
+  p.category {
+  font-size: 9px;
+}
+header .btn-group .dropdown .dropdown-menu .cart-item .delete-item i {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+header .btn-group .dropdown .dropdown-menu .cart-item .product-item .desc {
+  color: #fff;
+}
+header .btn-group .dropdown .dropdown-menu .subtotalDv {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  padding: 10px 30px 10px 30px;
+}
+header .btn-group .dropdown .dropdown-menu .subtotalDv h6 {
+  font-size: 14px;
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+header .btn-group .dropdown .dropdown-menu a.btn {
+  width: 100%;
+  background: transparent;
+  border-radius: 0;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 700;
+  padding: 13px 0;
+  margin-bottom: 9px;
+  border: 2px solid #fff;
+  transition: 0.6s;
+}
+header .btn-group .dropdown .dropdown-menu a.btn:hover {
+  background: #fff;
+  color: #000;
+}
+header .btn-group .dropdown .dropdown-menu .btns-group {
+  padding: 0 30px;
+}
+@media (max-width: 480px) {
+  header .btn-group button.btn-icon {
+    padding: 0 7px;
+  }
+}
+.Search {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000c2;
+  z-index: 11;
+  transform: translatex(100%);
+  transition: 0.7s;
+}
+.Search.show {
+  transform: translatex(0%);
+}
+.Search .searchBox {
+  width: 35%;
+}
+.Search .searchBox form .form-group {
+  display: flex;
+  align-items: center;
+}
+.Search .searchBox form .form-group input.form-control {
+  background: #fff;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  height: 59px;
+  padding: 0 20px;
+  color: #c7c7c7;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-style: italic;
+}
+.Search .searchBox form .form-group button {
+  padding: 13px 25px;
+  border-radius: 0;
+  background: #aeaeae;
+  border: 0;
+  font-size: 22px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 769px) {
+  .Search .searchBox {
+    width: 70%;
+  }
+}
+@media (max-width: 321px) {
+  .Search .searchBox {
+    width: 90%;
+  }
+}
+/* Header css End Here */
+
+/* Mob Header */
+header .btn-group button.btn-icon.canvas {
+  display: none;
+  line-height: 20px;
+}
+header .btn-group button.btn-icon.canvas i {
+  color: #fff;
+  font-size: 20px;
+}
+header .mob-navbar {
+  position: fixed;
+  background: #000;
+  width: 15%;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  top: 0;
+  transition: 0.7s;
+  transform: translateX(100%);
+}
+header .mob-navbar.show {
+  transform: translateX(0);
+  width: 25%;
+}
+header .mob-navbar ul.menus li {
+  border-bottom: 1px solid #ffffff47;
+  padding: 10px 20px;
+  list-style: none;
+}
+header .mob-navbar ul.menus li a {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 25px;
+}
+header .mob-navbar .cancel {
+  text-align: right;
+  padding: 30px 20px 30px 30px;
+}
+header .mob-navbar .cancel button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+header .mob-navbar .cancel button i {
+  color: #fff;
+}
+@media (max-width: 992px) {
+  header .btn-group button.btn-icon.canvas {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  header .navbar {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  header .mob-navbar.show {
+    width: 60%;
+  }
+  header .mob-navbar .cancel {
+    text-align: left;
+  }
+}
+/* Mob Header */
+
+/* Inner Page Banner */
+.universal-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+.universal-banner h1.title {
+  font-family: "Quantify", sans-serif;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.universal-banner p {
+  padding: 0 15%;
+}
+.universal-banner .tagline h1 {
+  font-size: 7.9rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffffff4f;
+  color: transparent;
+  font-family: "Teko";
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0 30px;
+}
+.universal-banner .left-tagline {
+  writing-mode: tb;
+  display: table;
+  margin: 0 auto 0 0;
+}
+.universal-banner .left-tagline h1 {
+  transform: rotate(180deg);
+}
+.universal-banner .right-tagline {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0 0 0 auto;
+  width: 100%;
+  display: table;
+}
+@media (max-width: 1101px) {
+  .universal-banner p {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 769px) {
+  .universal-banner {
+    height: 350px;
+  }
+  .universal-banner .tagline h1 {
+    font-size: 5.2rem;
+    margin: 0 0px;
+  }
+  .universal-banner h1.title {
+    font-size: 75px;
+    line-height: 85px;
+  }
+}
+@media (max-width: 576px) {
+  .universal-banner .tagline {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .universal-banner h1.title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .universal-banner p {
+    padding: 0 0%;
+    text-align: justify;
+    text-align-last: center;
+  }
+  .universal-banner {
+    height: 400px;
+  }
+}
+@media (max-width: 321px) {
+  .universal-banner p {
+    padding: 0 0%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .universal-banner h1.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .universal-banner p {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: justify;
+    text-align-last: center;
+  }
+}
+/* Inner Page Banner */
+
+/* Banner Css Start Here */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .tagline h1 {
+  font-size: 7.9rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffffff4f;
+  color: transparent;
+  font-family: "Teko";
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0 30px;
+}
+.banner .left-tagline {
+  writing-mode: tb;
+  display: table;
+  margin: 0 auto 0 0;
+}
+.banner .left-tagline h1 {
+  transform: rotate(180deg);
+}
+.banner .right-tagline {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0 0 0 auto;
+  width: 100%;
+  display: table;
+}
+.banner .contentDv h1.main-heading {
+  font-size: 95px;
+  font-family: "Quantify", sans-serif;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.banner .contentDv h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.banner .contentDv p {
+  padding: 0 19% 50px;
+}
+.banner .contentDv a.btn {
+  background: #ffffff;
+  padding: 8px 40px;
+  border-radius: 0;
+  font-size: 22px;
+  font-family: "Teko";
+  font-weight: 700;
+  color: #7b8183;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.banner .img-card .topBorder:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  border-left: 4px solid #fff;
+  border-top: 4px solid #fff;
+}
+.banner .img-card .topBorder:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  border-right: 4px solid #fff;
+  border-top: 4px solid #fff;
+}
+.banner .img-card {
+  width: 60%;
+  margin: 0px auto;
+  position: relative;
+}
+.banner ul.images-box {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner ul.images-box li.img-box {
+  margin: 10px;
+}
+.banner ul.images-box li.img-box figure img {
+  width: 100%;
+}
+.banner .img-card .bottomBorder:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  border-left: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  bottom: 0;
+}
+.banner .img-card .bottomBorder:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  bottom: 0;
+}
+@media (max-width: 992px) {
+  .banner {
+    height: 650px;
+  }
+  .banner .tagline {
+    display: none;
+  }
+  .banner .contentDv h1.main-heading {
+    font-size: 65px;
+    line-height: 75px;
+  }
+  .banner .contentDv h3 {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 769px) {
+  .banner {
+    height: 600px;
+  }
+  .banner .contentDv p {
+    padding: 0 9% 50px;
+  }
+}
+@media (max-width: 576px) {
+  .banner {
+    height: 510px;
+  }
+  .banner .contentDv a.btn {
+    padding: 6px 20px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 480px) {
+  .banner .contentDv h1.main-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .banner .contentDv h3 {
+    font-size: 21px;
+    line-height: 31px;
+  }
+  .banner .contentDv p {
+    padding: 0 3% 50px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 321px) {
+  .banner {
+    height: 440px;
+  }
+  .banner .contentDv h1.main-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .banner .contentDv h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .banner .contentDv p {
+    padding: 0 0% 20px;
+    font-size: 13px;
+  }
+  .banner .img-card {
+    width: 100%;
+  }
+}
+@media (max-width: 321px) {
+  .abt-banner h1.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+/* Banner Css Start Here */
+
+/* Events Css Start Here */
+.events {
+  background-image: url(../img/events.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+.events h2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.events #countdown ul {
+  margin: 0;
+}
+.events #countdown ul li {
+  display: inline-block;
+  text-align: center;
+  width: 130px;
+  margin: 0 20px;
+}
+.events #countdown ul li ruby {
+  font-family: "Teko";
+  font-size: 37px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+}
+.events #countdown ul li span {
+  background: #eeeeee;
+  font-family: "Teko";
+  font-size: 100px;
+  color: #7b8183;
+  display: block;
+  border-radius: 5px;
+  position: relative;
+}
+.events #countdown ul li span:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #7b818387;
+  left: 0;
+  top: 50%;
+}
+.events .hr {
+  padding-top: 60px;
+}
+.events .hr figure img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .events #countdown ul li {
+    width: 100px;
+    margin: 0 10px;
+  }
+  .events #countdown ul li ruby {
+    font-size: 28px;
+  }
+  .events #countdown ul li span {
+    font-size: 70px;
+  }
+  .events h2 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+@media (max-width: 576px) {
+  .events .hr {
+    padding-top: 30px;
+  }
+  .events .Goods {
+    padding: 30px 0 0;
+  }
+  .events .Goods h2.head {
+    padding-bottom: 10px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .events #countdown ul li ruby {
+    font-size: 21px;
+  }
+  .events h2 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+}
+@media (max-width: 480px) {
+  .events #countdown ul li {
+    width: 50px;
+  }
+  .events #countdown ul li span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 321px) {
+  .events {
+    padding: 30px 0;
+  }
+  .events h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+/* GOODS */
+.events .Goods {
+  padding: 60px 0 0;
+  text-align: left;
+}
+.events .Goods .video-box figure img {
+  width: 100%;
+}
+.events .Goods h2 {
+  padding: 0;
+}
+.events .Goods h2.head {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.events .Goods h2.sub {
+  font-size: 68px;
+  line-height: 68px;
+}
+.events .Goods p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 20px;
+}
+.events .Goods a.btn {
+  background: #ffffff;
+  padding: 8px 40px;
+  border-radius: 0;
+  font-size: 22px;
+  font-family: "Teko";
+  font-weight: 700;
+  color: #7b8183;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+@media (max-width: 992px) {
+  .events .Goods h2.head {
+    padding-bottom: 10px;
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .events .Goods h2.head {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 321px) {
+  .events .Goods {
+    padding: 40px 0 0;
+  }
+  .events .Goods h2.head {
+    padding-bottom: 0px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .events .Goods .video-box iframe {
+    height: 160px;
+  }
+  .events .Goods h2.sub {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .events .Goods p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    text-align-last: left;
+  }
+  .events .Goods a.btn {
+    padding: 7px 20px;
+    font-size: 19px;
+    margin-top: 20px;
+  }
+}
+/* GOODS */
+
+/* Events Css Start Here */
+
+/* Featured Section css Start Here */
+.featured_videos {
+  padding: 70px 0;
+  background-color: #000;
+  text-align: center;
+}
+.featured_videos .head {
+  padding-bottom: 15px;
+}
+.featured_videos .videos .video-slides {
+  position: relative;
+  margin: 0 10px;
+}
+.featured_videos .videos .video-slides figure img {
+  width: 100%;
+}
+.featured_videos .videos button.slick-prev.slick-arrow {
+  position: absolute;
+  left: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.featured_videos .videos button.slick-prev.slick-arrow:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.featured_videos .videos button.slick-next.slick-arrow {
+  position: absolute;
+  right: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.featured_videos .videos button.slick-next.slick-arrow:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.featured_videos .videos .video-slides figure img {
+  width: 100%;
+  filter: brightness(0.7);
+}
+.featured_videos .ply-btn {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+}
+.featured_videos .ply-btn figure img {
+  width: 40px !important;
+  filter: unset !important;
+}
+.featured_videos .view-btn {
+  margin-top: 40px;
+}
+.featured_videos .view-btn a.btn {
+  background: #707070;
+  color: #fff;
+  border-radius: 0;
+  font-size: 22px;
+  font-family: "Teko";
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 30px;
+  line-height: 14px;
+}
+@media (max-width: 576px) {
+  .featured_videos .head h2.title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .featured_videos .videos button {
+    display: none !important;
+  }
+  .featured_videos .head h2.title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 321px) {
+  .featured_videos {
+    padding: 30px 0;
+  }
+  .featured_videos .head h2.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .new-products .head h2.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+/* Featured Section css End Here */
+
+/* Products Css Start here */
+.new-products {
+  padding: 40px 0;
+  background-color: #000;
+}
+.new-products .head {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.new-products .products .productBox {
+  margin: 0 10px;
+}
+.new-products .products button.slick-prev.slick-arrow {
+  position: absolute;
+  left: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.new-products .products button.slick-prev.slick-arrow:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.new-products .products button.slick-next.slick-arrow {
+  position: absolute;
+  right: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.new-products .products button.slick-next.slick-arrow:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.new-products .products .productBox .images.box {
+  position: relative;
+}
+.new-products .products .productBox .images.box figure img {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.new-products .products .productBox .products-items {
+  position: absolute;
+  top: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: left;
+  width: 15%;
+  padding-left: 15px;
+}
+.new-products .products .productBox .products-items ul.items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.new-products .products .productBox .products-items ul.items li:first-child {
+  margin-bottom: 20px;
+}
+.new-products .product-desc {
+  padding: 15px 0;
+}
+.new-products .product-desc .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.top-seller .product-desc h5 {
+  font-weight: 100;
+  color: #767676;
+}
+.new-products .product-desc .name h5 {
+  margin-bottom: 0;
+  background: #000;
+  padding: 0 10px;
+  font-weight: 200;
+}
+.new-products .product-desc a {
+  color: #fff;
+}
+.new-products .product-desc .name:before {
+  content: "";
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.new-products .product-desc .rating figure img {
+  width: 120px;
+  padding: 4px 0;
+}
+.new-products ul.slick-dots {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-products ul.slick-dots li {
+  display: inline-block;
+}
+.new-products ul.slick-dots li button {
+  border: 0;
+  color: #fff;
+  margin: 0 5px;
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+.new-products ul.slick-dots li.slick-active button {
+  background: #512a70;
+}
+@media (max-width: 992px) {
+  .new-products .products button.slick-prev.slick-arrow {
+    top: 25%;
+  }
+  .new-products .products button.slick-next.slick-arrow {
+    top: 25%;
+  }
+}
+@media (max-width: 576px) {
+  .new-products .products button {
+    display: none;
+  }
+  .new-products .products button {
+    display: none !important;
+  }
+  .new-products .head h2.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 321px) {
+  .new-products .head h2.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+/* Products Css End here */
+
+/* Card Css Start Here */
+.cards .contentDv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cards .ltr {
+  background-image: url(../img/cardback1.png);
+  padding: 0px 30px 0px 80px;
+}
+.cards .rtl {
+  background-image: url(../img/cardback2.png);
+  text-align: right;
+  padding: 0px 120px 0px 60px;
+}
+.cards .contentDv p {
+  line-height: 23px;
+  padding-bottom: 30px;
+}
+.cards .contentDv a.btn {
+  color: #000;
+  background: #ddebdd;
+  font-family: "Teko";
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 10px 30px;
+  line-height: 15px;
+}
+.cards .card-overview {
+  background: #d7e3d8;
+  padding: 10px 0;
+}
+.cards .card-overview .img-box figure img {
+  margin: 0px auto;
+  display: block;
+}
+@media (max-width: 1101px) {
+  .cards .ltr {
+    background-image: url(../img/cardback1.png);
+    padding: 0px 10px 0px 40px;
+  }
+  .cards .rtl {
+    padding: 0px 40px 0px 30px;
+  }
+  .cards .contentDv p {
+    line-height: 19px;
+    font-size: 14px;
+  }
+  .cards .card-overview .img-box figure img {
+    width: 100%;
+    padding: 30px 80px;
+  }
+}
+@media (max-width: 769px) {
+  .cards .contentDv p {
+    line-height: 16px;
+    font-size: 10px;
+  }
+  .cards .card-overview .img-box figure img {
+    padding: 50px 80px;
+  }
+}
+@media (max-width: 576px) {
+  .cards .rever {
+    flex-direction: column-reverse;
+  }
+  .cards .contentDv {
+    padding: 30px 20px 30px 20px !important;
+    text-align: left;
+  }
+}
+@media (max-width: 321px) {
+  .cards .card-overview .img-box figure img {
+    padding: 20px 20px;
+  }
+  .cards .contentDv {
+    padding: 20px 20px 10px 20px !important;
+  }
+  .cards .contentDv h3.title {
+    font-size: 31px;
+  }
+}
+/* Card Css Start Here */
+
+/* Top Seller Start here */
+.top-seller {
+  padding: 60px 0;
+  background-color: #000;
+}
+.top-seller .head {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.top-seller .productBox {
+  margin: 0 10px;
+}
+.top-seller button.slick-prev.slick-arrow {
+  position: absolute;
+  left: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.top-seller button.slick-prev.slick-arrow:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.top-seller button.slick-next.slick-arrow {
+  position: absolute;
+  right: -25px;
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  top: 35%;
+  outline: none;
+  cursor: pointer;
+}
+.top-seller button.slick-next.slick-arrow:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #fff;
+}
+.top-seller .productBox .images.box {
+  position: relative;
+  border: 2px solid #707070;
+  border-radius: 20px;
+}
+.top-seller .productBox .images.box figure img {
+  width: 100%;
+}
+.top-seller .productBox .products-items {
+  position: absolute;
+  top: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: left;
+  width: 15%;
+  padding-left: 15px;
+}
+.top-seller .productBox .products-items ul.items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0.4;
+}
+.top-seller .productBox .products-items ul.items li:first-child {
+  margin-bottom: 20px;
+}
+.top-seller .product-desc {
+  padding: 15px 0;
+}
+.top-seller .product-desc .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.top-seller .product-desc a {
+  text-decoration: none;
+  color: #767676;
+}
+.top-seller .product-desc .name h5 {
+  margin-bottom: 0;
+  background: #000;
+  padding: 0 10px;
+  position: relative;
+}
+.top-seller .product-desc .name:before {
+  content: "";
+  background: #707070;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+}
+.top-seller .product-desc .rating figure img {
+  width: 120px;
+  padding: 4px 0;
+}
+.top-seller ul.slick-dots {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-seller ul.slick-dots li {
+  display: inline-block;
+}
+.top-seller ul.slick-dots li button {
+  border: 0;
+  color: #fff;
+  margin: 0 5px;
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+.top-seller ul.slick-dots li.slick-active button {
+  background: #512a70;
+}
+@media (max-width: 576px) {
+  .top-seller .productBox {
+    padding: 0 0;
+  }
+  .top-seller .head h2.title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .top-seller .head {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 321px) {
+  .top-seller .head h2.title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .top-seller .productBox {
+    padding: 0 0%;
+  }
+}
+/* Top Seller Css End here */
+
+/* Newsletter css Start Here */
+.newsletter {
+  padding: 60px 0;
+  background: url(../img/subs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.newsletter .head {
+  padding-bottom: 30px;
+}
+.newsletter h2.sub-title {
+  text-transform: uppercase;
+}
+.newsletter .newsletter-box {
+  display: flex;
+  padding: 0 30px;
+}
+.newsletter .newsletter-box button {
+  border: 0;
+  background: #aeaeae;
+  text-align: center;
+  padding: 5px 10px;
+}
+.newsletter .newsletter-box .inputDv {
+  width: 100%;
+}
+.newsletter .newsletter-box input {
+  border: 0;
+  height: 50px;
+  padding: 0 10px;
+  width: 100%;
+  border-radius: 0;
+}
+.newsletter .newsletter-box .inputDv input::placeholder {
+  font-family: "Poppins";
+  color: #c2c2c2;
+  opacity: 0.8;
+}
+@media (max-width: 1101px) {
+  .newsletter .head h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 992px) {
+  .newsletter .head h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .newsletter .head h2.sub-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 769px) {
+  .newsletter .newsletter-box {
+    padding: 0 0px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter .head h1 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  .newsletter .head h2.sub-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 321px) {
+  .newsletter {
+    padding: 30px 0;
+  }
+  /*.newsletter .head h1 {*/
+  /*    font-size: 40px;*/
+  /*    line-height: 50px;*/
+  /*}*/
+  /*.newsletter .head h2.sub-title {*/
+  /*    font-size: 50px;*/
+  /*    line-height: 50px;*/
+  /*}*/
+  .newsletter .head p.para {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .head h4.small-txt {
+    font-size: 32px;
+    padding-top: 27px;
+  }
+  footer p.cen {
+    padding-bottom: 0;
+  }
+}
+/* Newsletter css End Here */
+
+/* Footer Css Start Here */
+footer {
+  background: #000;
+  padding: 50px 0 60px;
+}
+footer .head {
+  padding-bottom: 10px;
+}
+footer .head.cen h4 {
+  font-weight: 400;
+}
+footer .head h4.small-txt {
+  font-size: 32px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 14px;
+}
+footer ul.footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul.footer-nav li.footer-links a {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-decoration: none;
+}
+footer ul.information {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul.information li {
+  font-family: "Poppins";
+  font-size: 14px;
+  margin-bottom: 6px;
+  line-height: 24px;
+}
+footer ul.information li a {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #fff;
+}
+footer ul.social-icons {
+  margin: 0;
+}
+footer ul.social-icons li a i {
+  color: #fff;
+  font-size: 30px;
+}
+footer ul.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.copyright {
+  background: url(../img/copyright.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  footer .head.cen {
+    text-align: center;
+  }
+  footer p.cen {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  footer .cen {
+    text-align: left !important;
+  }
+  footer .head h4.small-txt {
+    padding-top: 20px;
+  }
+}
+/* Footer Css Start Here */

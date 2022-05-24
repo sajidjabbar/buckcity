@@ -1,0 +1,500 @@
+/* Profile Css Start Here */
+.universal-banner {
+  height: 400px;
+  background-image: linear-gradient(rgb(0 0 0 / 41%), rgb(0 0 0 / 8%)),
+    url(../img/banner.png);
+  background-position: bottom;
+}
+.profile_sec {
+  background: #000;
+  padding: 100px 0 60px;
+}
+.profile_sec .sidebar {
+  border: 1px solid #fff;
+  padding: 40px 20px;
+  margin-top: -50%;
+  background: #000;
+}
+.profile_sec .sidebar .user-detail {
+  text-align: center;
+}
+.profile_sec .sidebar .user-detail .user_img img {
+  width: 200px;
+  object-fit: cover;
+}
+.profile_sec .sidebar .user-detail .user-name h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  padding: 12px 0 0;
+}
+.profile_sec .sidebar ul.details {
+  margin: 0;
+  padding: 20px 0 0;
+  list-style: none;
+}
+.profile_sec .sidebar ul.details li {
+  color: #ffffff;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.profile_sec .sidebar .about {
+  padding: 30px 0;
+}
+.profile_sec .sidebar .about .head h4 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.profile_sec .sidebar .about p {
+  font-size: 13px;
+  color: #fff;
+  line-height: 19px;
+}
+.profile_sec .sidebar .button-group a.btn {
+  background: #ffffff;
+  border-radius: 0;
+  font-size: 16px;
+  color: #000000;
+  font-family: "Poppins";
+  width: 100%;
+  padding: 15px 0;
+  text-shadow: 0 0 black;
+}
+/* Profile Css End Here */
+.shadow_box {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 25px 20px 20px !important;
+  margin-bottom: 15px;
+}
+.write-post .head {
+  padding-bottom: 10px;
+}
+.write-post .head h4 {
+  color: #000000;
+  font-weight: 400;
+}
+.write-post .write_box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.write-post .write_box .form-group {
+  flex: 1;
+  display: flex;
+  margin: 0;
+}
+.write-post .write_box .files_flex {
+  position: absolute;
+  right: 10rem;
+  top: 10px;
+}
+.write-post .write_box .files_flex label {
+  cursor: pointer;
+}
+.write-post .write_box .files_flex input {
+  display: none;
+}
+.write-post ul#fileList {
+  padding: 0;
+  margin: 10px 0 0;
+  list-style: none;
+}
+.write-post ul#fileList li {
+  display: inline-block;
+  font-family: "Work sans";
+  font-size: 14px;
+  font-weight: 500;
+  background: #cdcdcd;
+  margin-right: 2px;
+  padding: 5px 25px;
+  margin-top: 2px;
+  position: relative;
+}
+.write-post ul#fileList li span.remove-list {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+.write-post .write_box .user_img {
+  margin-right: 25px;
+}
+.write-post .write_box .user_img img {
+  border-radius: 50%;
+  width: 45px;
+  border: 2px solid #fff;
+}
+.write-post .write_box .form-group .form-control {
+  border: 1px solid #00000029;
+  border-radius: 0;
+  padding: 10px 30px;
+  color: #636060;
+  font-family: "Poppins";
+}
+.write-post .write_box .form-group .form-control::placeholder {
+  color: #000;
+}
+.write-post .write_box .form-group button.btn {
+  background: #228dd3;
+  border-radius: 0;
+  color: #fff;
+  font-family: "Work sans";
+  padding: 0 30px;
+  margin-left: 10px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.write-post .write_box .form-group button.btn:hover {
+  box-shadow: 0px 0px 0px 2px #228dd3;
+}
+.post_box .dropdown_box {
+  text-align: end;
+}
+.post_box .dropdown_box button.btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+}
+.post_box .dropdown_box .dropdown-menu a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+  padding: 5px 20px;
+  border-bottom: 1px solid #c9c9c9;
+  text-decoration: none;
+}
+.post_box .dropdown_box button.btn:after {
+  display: none;
+}
+.post_box .dropdown_box button.btn i {
+  color: #fff;
+  font-size: 25px;
+}
+.post_box .dropdown_box .dropdown-menu {
+  right: 0;
+  left: unset;
+  border-radius: 0;
+  border: 0;
+  background: #e3e3e3;
+}
+.post_box .dropdown_box .dropdown-menu a i {
+  color: #000;
+  width: 15px;
+}
+.post_box {
+  padding-bottom: 20px;
+}
+.post_box a {
+  text-decoration: underline;
+  color: #228dd3;
+  font-family: "Poppins";
+}
+.post_box .user-details {
+  display: flex;
+  align-items: center;
+}
+.post_box .user-details .img_box img {
+  width: 50px;
+  /* border: 2px solid #31007b; */
+  border-radius: 50%;
+}
+.post_box .user-details .details {
+  padding-left: 15px;
+}
+.post_box .user-details .details h5.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+.post_box .user-details .details h5.name span.others {
+  color: #ffffff9c;
+  font-size: 13px;
+}
+.post_box .user-details .details h5.name span.others span.name {
+  color: #fff;
+  margin: 0 5px;
+}
+.post_box .user-details .details p.times_ago {
+  margin: 0;
+  color: #0000008f;
+  font-size: 12px;
+}
+.post_box .post-text {
+  padding: 20px 0 70px;
+}
+.post_box .post-text h5 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.post_box .post-text p {
+  margin: 0;
+  font-size: 15px;
+  padding-right: 60px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins";
+}
+.post_box .post-text .readmore {
+  padding-top: 15px;
+}
+.post_box .post-text .readmore a.lnk {
+  color: #228dd3;
+  font-family: "Poppins";
+}
+.post_box .post_img img {
+  height: 370px;
+  width: 100%;
+  object-fit: cover;
+}
+.post_box .bottom-group {
+  position: relative;
+  border-top: 1px solid #ccc;
+  padding-bottom: 0px;
+}
+.post_box .bottom-group .post-actions {
+  display: flex;
+  align-items: end;
+}
+.post_box .bottom-group .post-actions label.action_container {
+  margin: 0;
+  padding: 0;
+}
+.post_box .bottom-group .post-actions .liked.action {
+  margin-right: 50px;
+}
+.post_box
+  .bottom-group
+  .post-actions
+  label.action_container
+  input[type="radio"] {
+  opacity: 0;
+}
+.post_box .bottom-group .post-actions label.action_container span.checkmark p {
+  margin: 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.post_box .bottom-group .post-actions button.comment i {
+  font-size: 18px;
+}
+.post_box
+  .bottom-group
+  .post-actions
+  label.action_container
+  span.checkmark
+  p
+  i {
+  font-size: 22px;
+  margin-right: 2px;
+}
+.post_box
+  .bottom-group
+  .post-actions
+  label.action_container
+  input:checked
+  ~ span.checkmark
+  p {
+  color: #fff;
+}
+.post_box .bottom-group .post-actions button.comment {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Work sans";
+  cursor: pointer;
+  outline: none;
+}
+.post_box .bottom-group .porgerss_Dv {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.post_box .bottom-group .porgerss_Dv span.seprator {
+  margin: 0 7px;
+}
+.post_box .bottom-group .porgerss_Dv .total-likes {
+  display: flex;
+  align-items: center;
+}
+.post_box .bottom-group .porgerss_Dv .total-likes .images {
+  display: flex;
+  margin-right: 10px;
+}
+.post_box .bottom-group .porgerss_Dv .total-likes .images figure img {
+  width: 16px;
+}
+.post_box .bottom-group .porgerss_Dv .total-likes .images figure {
+  margin-left: -6px;
+}
+.post_box .bottom-group .porgerss_Dv .totals p {
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+.write-comment {
+  border: 0;
+  padding: 20px 0 !important;
+}
+.write-comment .head {
+  padding-bottom: 10px;
+}
+.write-comment .head h4 {
+  color: #000000;
+  font-weight: 400;
+}
+.write-comment .write_box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.write-comment .write_box .form-group {
+  flex: 1;
+  display: flex;
+  margin: 0;
+}
+.write-comment .write_box .files_flex {
+  position: absolute;
+  right: 10rem;
+  top: 10px;
+}
+.write-comment .write_box .files_flex label {
+  cursor: pointer;
+}
+.write-comment .write_box .files_flex input {
+  display: none;
+}
+.write-comment ul#fileList {
+  padding: 0;
+  margin: 10px 0 0;
+  list-style: none;
+}
+.write-comment ul#fileList li {
+  display: inline-block;
+  font-family: "Work sans";
+  font-size: 14px;
+  font-weight: 500;
+  background: #cdcdcd;
+  margin-right: 2px;
+  padding: 5px 25px;
+  margin-top: 2px;
+  position: relative;
+}
+.write-comment ul#fileList li span.remove-list {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+.write-comment .write_box .user_img {
+  margin-right: 25px;
+}
+.write-comment .write_box .user_img img {
+  border-radius: 50%;
+  width: 45px;
+  /* border: 2px solid #31007b; */
+}
+.write-comment .write_box .form-group .form-control {
+  border: 1px solid #00000029;
+  border-radius: 0;
+  padding: 10px 30px;
+  color: #636060;
+  font-family: "Poppins";
+}
+.write-comment .write_box .form-group .form-control::placeholder {
+  color: #000;
+}
+.write-comment .write_box .form-group button.btn {
+  background: #228dd3;
+  border-radius: 0;
+  color: #fff;
+  font-family: "Work sans";
+  padding: 0 20px;
+  margin-left: 10px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.write-comment .write_box .form-group button.btn:hover {
+  box-shadow: 0px 0px 0px 2px #228dd3;
+}
+.all_comments {
+  padding-top: 20px;
+}
+.all_comments .comment_box {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 7px;
+  margin-top: 10px;
+}
+.all_comments .user_img img {
+  width: 97px;
+  border-radius: 50%;
+}
+.all_comments .comment_box .content_dv .inner_content {
+  background: #ffffff26;
+  padding: 11px 25px;
+  margin-left: 10px;
+}
+.all_comments .comment_box .content_dv .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.all_comments .comment_box .content_dv .topbar h4.title {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.all_comments .comment_box .content_dv .topbar p.time_ago {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+.all_comments .comment_box .content_dv p {
+  font-size: 14px;
+  color: #fff;
+}
+.post_div
+  .comments
+  .all_comments
+  .comment_box
+  .content_dv
+  .button-group
+  a.rply {
+  color: #0080ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.all_comments .comment_box .content_dv .button-group {
+  padding-top: 15px;
+}
+.all_comments .replay_dv {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.post_box .view-previous {
+  text-align: center;
+}
+.post_box .view-previous a {
+  color: #fff;
+}

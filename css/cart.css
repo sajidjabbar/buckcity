@@ -1,0 +1,296 @@
+/* radio Button Css Start */
+.cart-items .cart-total .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  /* Hide the browser's default radio button */
+.cart-items .cart-total .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+  /* Create a custom radio button */
+  .cart-items .cart-total .checkmark {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+  /* On mouse-over, add a grey background color */
+.cart-items .cart-total .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+  /* When the radio button is checked, add a blue background */
+  .cart-items .cart-total .container input:checked ~ .checkmark {
+    background-color: transparent;
+    border-color: #fff;
+}
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.cart-items .cart-total .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the indicator (dot/circle) when checked */
+.cart-items .cart-total .container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the indicator (dot/circle) */
+  .cart-items .cart-total .container .checkmark:after {
+    top: 4.8px;
+    left: 4.8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+.cart-items .cart-total .shipping-methods .shipping-options .decription p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: 0 40px;
+    margin-bottom: 0;
+}
+.cart-items .cart-total .shipping-methods .shipping-options .light {
+    border-radius: 0 !important;
+}
+.cart-items .cart-total .shipping-methods .shipping-options .decription {
+    padding-bottom: 20px;
+}
+  /* radio Button Css Start */
+
+/* table css Start */
+.cart-items {
+    padding: 60px 0;
+    background: #000;
+}
+.cart-items .cart-total .shipping-methods .shipping-options label.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 40px 20px 70px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.cart-items .cart-total .shipping-methods .shipping-options label.container span.price {
+    font-size: 18px;
+    color: #fff;
+}
+.cart-items {
+    padding: 60px 0;
+}
+.cart-items table {
+    width: 100%;
+}
+.cart-items tbody tr.row1 {
+    border: 0;
+}
+.cart-items tbody tr td.sno {
+    width: 8%;
+    text-align: center;
+}
+.cart-items tbody tr td.product {
+    width: 48%;
+    padding-left: 7% !important;
+}
+.cart-items tbody tr td.price {
+    width: 15%;
+    padding: 0 !important;
+}
+.cart-items tbody tr td.qty {
+    width: 15%;
+    padding: 0 !important;
+}
+.cart-items tbody tr td.total {
+    width: 15%;
+    padding: 0 !important;
+}
+.cart-items tbody tr td.price {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: #fff;
+    opacity: 0.8;
+}
+.cart-items tbody tr td.qty input {
+    background: #0000;
+    width: 40px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    color: #fff;
+    border: 1px solid #fff;
+}
+.cart-items tbody tr td.total {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #fff;
+}
+.cart-items tbody tr.row1 {
+    background: #0D0D0D;
+    color: #fff;
+    height: 80px;
+}
+.cart-items tbody tr {
+    height: 160px;
+    background: #0D0D0D;
+    border-top: 15px solid #000;
+}
+.cart-items tbody tr.row3 {
+    border-top: 0px solid #fff;
+    border-bottom: 0px solid #E0E0E0;
+    background: #0D0D0D;
+}
+.cart-items tbody tr.row1 td {
+    padding-left: 4%;
+    font-size: 25px;
+    color: #fff;
+    opacity: 1;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.cart-items tbody tr.row2 td.sno {
+    background: #070707;
+}
+.cart-items tbody tr td.product .table-flex {
+    display: flex;
+    align-items: center;
+}
+.cart-items tbody tr td.product .table-flex .name {
+    padding-left: 20px;
+    color: #fff;
+}
+.cart-items tbody tr.row3 td.sno {
+    background: #070707;
+    color: #fff;
+}
+.cart-items .update-coupon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-items .update-coupon button {
+    border: 0;
+    background: #fff;
+    color: #000;
+    padding: 13px 35px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cart-items .shipping-methods {
+    border: 2px solid #fff;
+    margin-bottom: 25px;
+}
+.checkout {
+    width: 100%;
+    background: #0000;
+    padding: 17px 0px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
+.checkout a {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 100;
+    text-decoration: none !important;
+}
+.cart-items .shipping-methods {
+    border: 2px solid #fff;
+    margin-bottom: 25px;
+}
+.cart-items .cart-total .shipping-methods .shipping-options  .couponDv .form-group {
+    display: flex;
+    padding: 0 30px;
+    margin: 0;
+}
+.cart-items .cart-total .shipping-methods .shipping-options .couponDv .form-group input.form-control {
+    border-radius: 0;
+    padding: 0 10px;
+    color: #000;
+    height: 50px;
+}
+.cart-items .cart-total .shipping-methods .shipping-options .couponDv .form-group button {
+    border: 0;
+    background: #464646;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 40%;
+    cursor: pointer;
+}
+.shipping-methods .net-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.shipping-methods .net-total .property h6 {
+    font-size: 17px;
+    font-family: 'Poppins';
+    color: #fff;
+    margin: 0;
+}
+.shipping-methods .net-total  .value h6 {
+    font-size: 17px;
+    font-family: 'Poppins';
+    color: #fff;
+    margin: 0;
+}
+.cart-total .head {
+    padding-bottom: 20px;
+}
+.cart-total .head h4.title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Teko';
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+@media (max-width: 480px) {
+    .cart-items tbody tr td.product .table-flex .name {
+        display: none;
+    }
+    .cart-items tbody tr td.product {
+        width: 28%;
+        padding-left: 5% !important;
+    }
+    .cart-items tbody tr td.product .table-flex .image-box figure img {
+        width: 90px;
+    }
+}
+@media (max-width: 321px) {
+    .cart-items tbody tr.row1 td {
+        font-size: 15px;
+    }
+}
+/* table Css End */

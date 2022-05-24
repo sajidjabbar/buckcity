@@ -1,0 +1,74 @@
+/* Faqs Section Css Start */
+.faqs {
+    padding: 80px 0;
+    background-image: url(../img/faqbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faqs #accordion .card {
+    background: transparent;
+    border: 0;
+}
+.faqs #accordion .card .card-header {
+    background: transparent;
+    border: 0;
+    padding-left: 0;
+    margin: 0 20px;
+    padding-bottom: 0;
+}
+.faqs #accordion .card  .card-body {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    line-height: 22px;
+}
+.faqs #accordion .card .card-header button {
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 33px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px solid #fff;
+    padding-left: 0;
+    margin: 0 0px;
+    padding-bottom: 9px;
+    padding-top: 20px;
+}
+.faqs #accordion .card .card-header button[aria-expanded="true"] {
+    border-bottom: 0;
+}
+.faqs #accordion .card .card-header button:focus {
+    box-shadow: none;
+}
+.faqs #accordion .card .card-header button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqs #accordion .card .card-header button[aria-expanded="true"] .iconDv i.fa.fa-sort-desc:before {
+    content: "\f0d8";
+}
+@media (max-width: 576px) {
+    .faqs {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 321px) {
+    .faqs #accordion .card .card-header button {
+        font-size: 13px;
+    }
+    .faqs #accordion .card .card-body {
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        font-family: 'Poppins';
+        line-height: 19px;
+        font-size: 12px;
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+/* Faqs Section Css Start */

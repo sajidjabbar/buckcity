@@ -1,0 +1,63 @@
+/* Contact Form css Start Here */
+.contact {
+    padding: 60px 0;
+    background-color: #000;
+}
+.contact .contact-form {
+    background: #0F0F0F;
+    padding: 40px 120px 100px 160px;
+}
+.contact .contact-form .form-group label {
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.contact .contact-form .form-group .form-control {
+    border-radius: 0;
+    height: 45px;
+}
+.contact .contact-form textarea {
+    width: 100%;
+    height: 180px;
+    resize: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.contact .contact-form .form-group button {
+    padding: 10px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Poppins';
+    cursor: pointer;
+    width: 100%;
+}
+.contact .mapDv {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: -8%;
+}
+@media (max-width: 1101px) {
+    .contact .contact-form {
+        padding: 40px 120px 100px 100px;
+    }
+}
+@media (max-width: 992px) {
+    .contact .contact-form {
+        padding: 40px 70px 100px 50px;
+    }
+}
+@media (max-width: 576px) {
+    .contact .contact-form {
+        padding: 30px 35px 40px 35px;
+    }
+}
+@media (max-width: 321px) {
+    .contact {
+        padding: 0px 0 30px;
+    }
+    .contact .contact-form {
+        padding: 30px 10px 30px 10px;
+    }
+}
+/* Contact Form css End Here */

@@ -1,0 +1,92 @@
+.order-detail-wrapper {
+  padding: 30px;
+  border: 1px solid #fff;
+  margin-top: 80px;
+}
+.order-detail-heading-wrapper h6 {
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 17px;
+}
+.order-detail-heading-wrapper h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.order-detail-heading-wrapper {
+  margin-bottom: 10px;
+}
+.order-table-wrapper table {
+  width: 100%;
+}
+.order-table-wrapper td.pro-head {
+  width: 70%;
+}
+.order-table-wrapper td {
+  padding: 12px;
+  padding-left: 0px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 600;
+}
+.order-table-wrapper tr {
+  border-bottom: 1px solid #fff;
+}
+.order-table-wrapper tr:last-child {
+  border-bottom: 0px;
+}
+.order-table-wrapper td.pro-name-title {
+  border-right: 1px solid;
+}
+.order-table-wrapper td.pro-name-title:last-child {
+  border-right: 0px;
+  padding: 12px;
+}
+.order-table-wrapper td.pro-name-title {
+  text-align: center;
+}
+.order-table-wrapper td.pro-img {
+  text-align: center;
+}
+.order-table-wrapper td.pro-price {
+  text-align: center;
+}
+.order-table-wrapper td.Bank-transfer {
+  text-align: center;
+}
+.order-table-wrapper td.total-price {
+  text-align: center;
+}
+.order-table-wrapper td.pro-img-2 {
+  text-align: center;
+}
+.order-table-wrapper td.pro-img {
+  border-right: 1px solid;
+}
+.dashboard .order-detail-wrapper .button-group {
+  text-align: end;
+}
+.dashboard .order-detail-wrapper .button-group button {
+  border: 1px solid #fff;
+  background: #fff;
+  font-family: "Poppins";
+  width: 131px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+.dashboard .order-detail-wrapper .button-group button:hover {
+  background: #000;
+  border: 1px solid #ffff;
+  color: #fff;
+}
+.dashboard .order-detail-wrapper .button-group {
+  margin-top: 15px;
+}
+.dashboard .order-detail-wrapper .button-group button:first-child {
+  margin-right: 35px;
+}

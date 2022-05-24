@@ -1,0 +1,438 @@
+/* Auction Products Start Here */
+.auction-products {
+    padding: 80px 0;
+    background: #000;
+}
+.auction-products .tab-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.auction-products .tab-header .title h3 {
+    color: #fff;
+    margin-bottom: 0;
+}
+.auction-products .tab-header .tabDV ul.nav-tabs {
+    border: 0;
+}
+.auction-products .tab-header .tabDV ul.nav-tabs li.nav-item .nav-link {
+    border-radius: 0;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    margin-right: 25px;
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.auction-products .tab-header .tabDV ul.nav-tabs li.nav-item .nav-link.active {
+    color: #000;
+}
+.auction-products .productBox {
+    margin: 0 10px;
+}
+.auction-products .productBox .images.box {
+    position: relative;
+}
+.auction-products .tagline {
+    background: #fff;
+    padding: 7px 0px;
+    margin-top: -29px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+.auction-products .tagline h6 {
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.auction-products .tagline.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    border-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: -30px auto 0;
+    position: relative;
+}
+.auction-products .productBox .stock {
+    display: flex;
+    justify-content: center;
+    margin: -22px 0 0 0;
+    position: relative;
+}
+.auction-products .productBox .stock h6 {
+    background: #fff;
+    padding: 3px 0;
+    min-width: 130px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.auction-products .productBox .time-limit {
+    background: #fff;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: -23px auto 0;
+    position: relative;
+}
+.auction-products .productBox .time-limit h6 {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 0;
+    padding: 3px 0;
+}
+.auction-products .productBox .images.box figure img {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.auction-products .productBox .products-items {
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    width: 15%;
+    padding-left: 15px;
+}
+.auction-products .productBox .products-items ul.items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.auction-products .productBox .products-items ul.items li:first-child {
+    margin-bottom: 20px;
+}
+.auction-products .product-desc {
+    padding: 15px 0;
+}
+.auction-products .product-desc .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.auction-products .product-desc .name h5 {
+    margin-bottom: 0;
+    background: #000;
+    padding: 0 10px;
+    color: #fff;
+    position: relative;
+}
+.auction-products .product-desc h5 {
+    font-weight: 100;
+}
+.auction-products .product-desc .name:before {
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+}
+.auction-products .product-desc .rating figure img {
+    width: 120px;
+    padding: 4px 0;
+}
+@media (max-width: 1101px) {
+    .auction-products .tab-header .title h3 {
+        font-size: 30px;
+    }
+    .auction-products .productBox .stock h6 {
+        padding: 4px 0;
+        min-width: 100px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 992px) {
+    .auction-products .tab-header {
+        display: block;
+        text-align: center;
+    }
+    .auction-products .tab-header .title h3 {
+        padding-bottom: 20px;
+    }
+    .auction-products .tabDV {
+        margin: 0px auto;
+        display: table;
+    }
+    .auction-products .tab-header .tabDV ul.nav-tabs li.nav-item .nav-link {
+        width: 110px;
+        height: 42px;
+        margin-right: 25px;
+        font-size: 10px;
+    }
+    .auction-products .tab-header .tabDV ul.nav-tabs li.nav-item:last-child .nav-link {
+        margin: 0;
+    }
+}
+@media (max-width: 480px) {
+    .auction-products .tab-header .tabDV ul.nav-tabs {
+        display: block;
+    }
+    .auction-products .tab-header .tabDV ul.nav-tabs li.nav-item .nav-link {
+        margin: 0 0 5px 0;
+    }
+}
+@media (max-width: 321px) {
+    .auction-products .tab-header .tabDV ul.nav-tabs {
+        border: 0;
+        display: block;
+    }
+    .auction-products .tab-header .tabDV ul.nav-tabs li.nav-item .nav-link {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+/* Auction Products Start Here */
+
+/* BreadCrumbs Css Start */
+.auction-products .breadcrumbs ul.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+.auction-products .breadcrumbs ul.links li a {
+    color: #7D8286;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.auction-products .breadcrumbs ul.links li.active a {
+    color: #fff;
+}
+.auction-products .breadcrumbs ul.links li span {
+    color: #7D8286;
+    padding: 0 15px;
+}
+@media (max-width: 321px) {
+    .auction-products .breadcrumbs ul.links li a {
+        font-size: 13px;
+    }
+}
+/* BreadCrumbs Css Start */
+
+/* Pagination */
+.auction-products .pagination .property h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.auction-products .pagination {
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.auction-products .pagination .value ul.numbering {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.auction-products .pagination .value ul.numbering span {
+    cursor: pointer;
+}
+.auction-products .pagination .value ul.numbering span i {
+    color: #fff;
+    padding: 0 10px;
+}
+.auction-products .pagination .value ul.numbering li a {
+    color: #fff;
+    font-size: 16px;
+}
+.auction-products .pagination .value ul.numbering li a {
+    padding: 0 5px;
+    margin: 0 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.auction-products .pagination .value ul.numbering li a.last {
+    margin-right: 0;
+    padding-right: 0;
+}
+.auction-products .pagination .value ul.numbering li.all a {
+    padding-left: 0;
+    margin-left: 0;
+}
+.auction-products .pagination .value ul.numbering li a.active {
+    border: 1px solid #fff;
+}
+@media (max-width: 321px) {
+    .auction-products .pagination {
+        display: block;
+        text-align: center;
+    }
+    .auction-products .pagination .value ul.numbering {
+        justify-content: center;
+    }
+}
+/* Pagination */
+
+/* Premium Section Css Start Here */
+.premium-items {
+    background-image: url(../img/auctionbanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0 0;
+}
+.premium-items .contentDv .title h3 {
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.premium-items p {
+    margin-bottom: 20px;
+}
+.premium-items a.btn {
+    background: #fff;
+    border-radius: 0;
+    font-family: 'Teko';
+    font-weight: 500;
+    font-size: 19px;
+    color: #7D8284;
+    margin-top: 15px;
+}
+.premium-items .img-box {
+    text-align: right;
+    margin-bottom: -15%;
+}
+@media (max-width: 1101px) {
+    .premium-items .img-box figure img {
+        width: 100%;
+}
+}
+@media (max-width: 992px) {
+    .premium-items .contentDv {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 321px) {
+    .premium-items .img-box {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+}
+/* Premium Section Css Start Here */
+
+/* Featured Section css Start Here */
+.featured_videos {
+    padding: 140px 0 70px;
+    background-color: #000;
+    text-align: center;
+}
+.featured_videos .head {
+    padding-bottom: 35px;
+    text-align: left;
+}
+.featured_videos .head h3.title {
+    font-weight: 400;
+}
+.featured_videos .videos .video-slides{
+    position: relative;
+    margin: 0 10px;
+}
+.featured_videos .videos .video-slides figure img {
+    width: 100%;
+}
+.featured_videos .videos button.slick-prev.slick-arrow {
+    position: absolute;
+    left: -25px;
+    font-size: 0;
+    background: transparent;
+    border: 0;
+    top: 35%;
+    outline: none;
+    cursor: pointer;
+}
+.featured_videos .videos button.slick-prev.slick-arrow:before {
+    content: "\f104";
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    color: #3C1558;
+}
+.featured_videos .videos button.slick-next.slick-arrow {
+    position: absolute;
+    right: -25px;
+    font-size: 0;
+    background: transparent;
+    border: 0;
+    top: 35%;
+    outline: none;
+    cursor: pointer;
+}
+.featured_videos .videos button.slick-next.slick-arrow:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    color: #3C1558;
+}
+.featured_videos .videos .video-slides figure img {
+    width: 100%;
+    filter: brightness(0.7);
+}
+.featured_videos .ply-btn {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.featured_videos .ply-btn figure img {
+    width: 40px !important;
+    filter: unset !important;
+}
+.featured_videos .view-btn {
+    margin-top: 40px;
+}
+.featured_videos .view-btn a.btn {
+    background: #707070;
+    color: #fff;
+    border-radius: 0;
+    font-size: 22px;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 30px;
+    line-height: 14px;
+}
+@media (max-width: 576px) {
+    .featured_videos .head h2.title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .featured_videos .videos button {
+        display: none !important;
+    }    
+}
+@media (max-width: 321px) {
+    .featured_videos {
+        padding: 30px 0;
+    }
+    .featured_videos .head h2.title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .new-products .head h2.title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+/* Featured Section css End Here */

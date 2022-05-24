@@ -1,0 +1,263 @@
+/* Products Css Start Here */
+section.shopProducts {
+  background: #000;
+  padding: 80px 0;
+}
+/* Sidebar Css Start Here */
+section.shopProducts .categories-box {
+  margin-top: 50px;
+}
+.shopProducts .categories-box .categoryHead h5 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.shopProducts .categories-box ul.categories.scroll-bar1 {
+  margin: 0;
+  list-style: none;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.shopProducts .categories-box ul.categories.scroll-bar1 li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff47;
+  padding: 15px 0;
+}
+.shopProducts .categories-box ul.categories.scroll-bar1 li a {
+  font-family: "poppins";
+  color: #fff;
+  font-size: 14px;
+}
+.shopProducts .categories-box ul.categories.scroll-bar1 li span i {
+  color: #fff;
+}
+.shopProducts .categories-box .button-group {
+  padding: 20px 0 10px;
+}
+.shopProducts .categories-box .button-group a {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+}
+.shopProducts .categories-box .button-group a i {
+  margin-left: 15px;
+  font-size: 25px;
+}
+/* Sidebar Css End Here */
+.productBox {
+  margin: 10px 0px;
+}
+.productBox .images.box {
+  position: relative;
+}
+.productBox .images.box figure img {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 18px;
+}
+.productBox .products-items {
+  position: absolute;
+  top: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: left;
+  width: 15%;
+  padding-left: 15px;
+}
+.productBox .products-items ul.items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.productBox .products-items ul.items li:first-child {
+  margin-bottom: 20px;
+}
+.product-desc {
+  padding: 15px 0;
+}
+.product-desc .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.product-desc h5 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.product-desc .name h5 {
+  margin-bottom: 0;
+  background: #000;
+  padding: 0 10px;
+  position: relative;
+}
+.product-desc h5 a {
+  color: #fff;
+  text-decoration: none;
+}
+.product-desc .name:before {
+  content: "";
+  background: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+}
+.product-desc .rating figure img {
+  width: 120px;
+  padding: 4px 0;
+}
+.breadcrumbs ul.links {
+  display: flex;
+  list-style: none;
+}
+.breadcrumbs ul.links li a {
+  color: #7d8286;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+.breadcrumbs ul.links li.active a {
+  color: #fff;
+}
+.breadcrumbs ul.links li span {
+  color: #7d8286;
+  padding: 0 15px;
+}
+@media (max-width: 1101px) {
+  .product-desc .name h5 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 576px) {
+  .breadcrumbs {
+    padding: 20px 80px 0px 80px;
+  }
+  .shop-products {
+    padding: 0 15%;
+  }
+}
+@media (max-width: 321px) {
+  .breadcrumbs {
+    padding: 20px 0px 0px 0px;
+  }
+  .shop-products {
+    padding: 0 0%;
+  }
+}
+/* Products Css End Here */
+
+/* Pagination Css Start Here */
+.shopProducts .pagination {
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.shopProducts .pagination .property h5 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+.shopProducts .pagination .value ul.numbering {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.shopProducts .pagination .value ul.numbering span {
+  cursor: pointer;
+}
+.shopProducts .pagination .value ul.numbering span i {
+  color: #fff;
+  padding: 0 10px;
+}
+.shopProducts .pagination .value ul.numbering li a {
+  color: #fff;
+  font-size: 16px;
+}
+.shopProducts .pagination .value ul.numbering li a {
+  padding: 0 5px;
+  margin: 0 6px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.shopProducts .pagination .value ul.numbering li a.last {
+  margin-right: 0;
+  padding-right: 0;
+}
+.shopProducts .pagination .value ul.numbering li.all a {
+  padding-left: 0;
+  margin-left: 0;
+}
+.shopProducts .pagination .value ul.numbering li a.active {
+  border: 1px solid #fff;
+}
+@media (max-width: 321px) {
+  .shopProducts .pagination {
+    display: block;
+    text-align: center;
+  }
+  .shopProducts .pagination .value ul.numbering {
+    justify-content: center;
+  }
+}
+/* Pagination */
+
+/* Premium Section Css Start Here */
+.universal-banner {
+  height: 400px;
+  background-image: linear-gradient(rgb(0 0 0 / 41%), rgb(0 0 0 / 8%)),
+    url(../img/banner.png);
+  background-position: bottom;
+}
+.premium-items {
+  background-image: url(../img/auctionbanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0 0;
+}
+.premium-items .contentDv .title h3 {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.premium-items p {
+  margin-bottom: 20px;
+}
+.premium-items a.btn {
+  background: #fff;
+  border-radius: 0;
+  font-family: "Teko";
+  font-weight: 500;
+  font-size: 19px;
+  color: #7d8284;
+  margin-top: 15px;
+}
+.premium-items .img-box {
+  text-align: right;
+  margin-bottom: -15%;
+}
+@media (max-width: 1101px) {
+  .premium-items .img-box figure img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .premium-items .contentDv {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 321px) {
+  .premium-items .img-box {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+/* Premium Section Css Start Here */
+
+footer {
+  padding: 150px 0 60px;
+}

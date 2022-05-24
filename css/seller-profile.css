@@ -1,0 +1,311 @@
+.customer-table-wrapper .img-and-name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-table-wrapper .img-and-name-wrapper img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.customer-table-wrapper .table td {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px !important;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+.customer-table-wrapper th.quantity-name-heading {
+  width: 30%;
+  padding-left: 50px;
+}
+.customer-wrapper input[type="password"] {
+  background: transparent;
+  color: #fff;
+  border: 0px;
+}
+.customer-table-wrapper td.customer-name {
+  padding-left: 50px;
+}
+.customer-table-wrapper .img-and-name-wrapper h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.customer-table-wrapper th {
+  border: 0px !important;
+  border-bottom: 0px !important;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+}
+.customer-table-wrapper td.pro-email span {
+  display: block;
+  text-align: center;
+}
+.customer-wrapper h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 31px;
+}
+.customer-table-wrapper .button-group-wrapper button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 147px;
+  margin: 0px 30px 0px 0px;
+  height: 37px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 10px;
+}
+.customer-table-wrapper .button-group-wrapper {
+  margin-top: 30px;
+}
+.customer-wrapper {
+  padding: 30px;
+  border: 1px solid #999999;
+}
+td.pro-number.phone {
+  font-weight: 600;
+  font-size: 15px !important;
+}
+.customer-table-wrapper td.pro-number.mail {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.customer-wrapper td.pro-number.l-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.customer-wrapper td.pro-number.f-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+.customer-wrapper td.male {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+/* edit profile css starts here */
+.edit-customer-table-wrapper .img-and-name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-customer-table-wrapper .img-and-name-wrapper img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.edit-customer-table-wrapper .table td {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px !important;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+.edit-customer-table-wrapper th.quantity-name-heading {
+  width: 30%;
+  padding-left: 50px;
+}
+.edit-customer-wrapper input[type="password"] {
+  background: transparent;
+  color: #fff;
+  border: 0px;
+}
+.edit-customer-table-wrapper td.customer-name {
+  padding-left: 50px;
+}
+.edit-customer-table-wrapper .img-and-name-wrapper h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.edit-customer-table-wrapper th {
+  border: 0px !important;
+  border-bottom: 0px !important;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+}
+.edit-customer-table-wrapper td.pro-email span {
+  display: block;
+  text-align: center;
+}
+.edit-customer-wrapper h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 31px;
+}
+.edit-customer-table-wrapper .button-group-wrapper button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 147px;
+  margin: 0px 30px 0px 0px;
+  height: 37px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 10px;
+}
+.edit-customer-table-wrapper .button-group-wrapper {
+  margin-top: 30px;
+}
+.edit-customer-wrapper {
+  padding: 30px;
+  border: 1px solid #999999;
+}
+td.pro-number.phone {
+  font-weight: 600;
+  font-size: 15px !important;
+}
+.edit-customer-table-wrapper td.pro-number.mail {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.edit-customer-wrapper td.pro-number.l-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.edit-customer-wrapper td.pro-number.f-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.edit-customer-wrapper td.male {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.edit-customer-wrapper input {
+  background: #ffffff;
+  font-family: "Poppins";
+  border: 0px;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.edit-customer-wrapper textarea {
+  background: #ffffff;
+  font-family: "Poppins";
+  border: 0px;
+  padding: 5px 20px;
+  font-size: 14px;
+  width: 100%;
+}
+/* edit profile ends here */
+/* change password css starts here */
+.change-password-customer-table-wrapper .img-and-name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change-password-customer-table-wrapper .img-and-name-wrapper img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.change-password-customer-table-wrapper .table td {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px !important;
+  font-weight: 300;
+  padding: 20px 0px;
+}
+.change-password-customer-table-wrapper th.quantity-name-heading {
+  width: 30%;
+  padding-left: 50px;
+}
+.change-password-customer-wrapper input[type="password"] {
+  background: #fff;
+  color: #000;
+  border: 0px;
+}
+.change-password-customer-table-wrapper td.customer-name {
+  padding-left: 50px;
+}
+.change-password-customer-table-wrapper .img-and-name-wrapper h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.change-password-customer-table-wrapper th {
+  border: 0px !important;
+  border-bottom: 0px !important;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+}
+.change-password-customer-table-wrapper td.pro-email span {
+  display: block;
+  text-align: center;
+}
+.change-password-customer-wrapper h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 31px;
+}
+.change-password-customer-table-wrapper .button-group-wrapper button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 147px;
+  margin: 0px 30px 0px 0px;
+  height: 37px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 10px;
+}
+.change-password-customer-table-wrapper .button-group-wrapper {
+  margin-top: 30px;
+}
+.change-password-customer-wrapper {
+  padding: 30px;
+  border: 1px solid #999999;
+}
+td.pro-number.phone {
+  font-weight: 600;
+  font-size: 15px !important;
+}
+.change-password-customer-table-wrapper td.pro-number.mail {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.change-password-customer-wrapper td.pro-number.l-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.change-password-customer-wrapper td.pro-number.f-name {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.change-password-customer-wrapper td.male {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.change-password-customer-wrapper input {
+  background: #ffffff;
+  font-family: "Poppins";
+  border: 0px;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.change-password-customer-wrapper textarea {
+  background: #ffffff;
+  font-family: "Poppins";
+  border: 0px;
+  padding: 5px 20px;
+  font-size: 14px;
+  width: 100%;
+}
+/* change password css starts here */

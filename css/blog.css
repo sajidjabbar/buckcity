@@ -1,0 +1,56 @@
+/* Blogs Css Start Here */
+.blog-sec {
+    background-color: #000;
+    padding: 60px 0;
+}
+.blog-sec .post .img-box figure img {
+    width: 100%;
+}
+.blog-sec .post {
+    border: 1px solid #fff;
+    padding: 10px 10px 45px;
+    margin-top: 30px;
+}
+.blog-sec .post .post-title {
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    padding: 1em 8em 0 1.5em;
+}
+.blog-sec .post .post-title h6 {
+    font-family: 'Poppins';
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.blog-sec .post .img-box {
+    position: relative;
+}
+.blog-sec .post .desc {
+    padding-top: 10px;
+}
+.blog-sec .post .desc p {
+    font-size: 12px;
+}
+.blog-sec  a.btn {
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 11px;
+    padding: 10px 30px;
+    transition: 0.6s;
+    font-weight: 700;
+    background: #000;
+    margin-top: -30px;
+}
+.blog-sec a.btn:hover {
+    background: #fff;
+    color: #000;
+}
+@media (max-width: 576px) {
+    .blog-sec {
+        padding: 30px 0;
+    }
+}
+/* Blogs Css End Here */

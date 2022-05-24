@@ -1,0 +1,104 @@
+/* Inbox Css Start Here */
+.universal-banner {
+  height: 350px;
+  background-position: bottom;
+}
+/* Seller Message Css Start Here */
+.dashboard {
+  padding: 60px 0;
+  background: #000;
+}
+.seller_message {
+  background: #000;
+  padding: 50px 30px;
+  border: 1px solid #ffffff6e;
+}
+.dashboard .message_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff6e;
+  padding-bottom: 30px;
+}
+.dashboard .message_header .heading h4 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.dashboard .message_header .delete_btn button.btn {
+  padding: 0;
+  color: #fff;
+  font-size: 25px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.dashboard .all_messages {
+  padding-top: 20px;
+  height: 550px;
+  overflow-y: auto;
+}
+.dashboard .all_messages::-webkit-scrollbar {
+  width: 0px;
+}
+.dashboard .message_box {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ffffff6e;
+  padding: 20px 0;
+}
+.dashboard .message_box:last-child {
+  border: 0;
+}
+.dashboard .message_box .img_box {
+  margin-right: 10px;
+}
+.dashboard .message_box .img_box img {
+  width: 46px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.dashboard .message_box .message_contentDv .message_topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.dashboard .message_box .message_contentDv .message_topbar p {
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "poppins";
+}
+.dashboard .message_box .message_contentDv .message_topbar span.count {
+  margin-left: 15px;
+  background: #fff;
+  padding: 0 15px;
+  color: #000;
+}
+.dashboard .message_box .message_contentDv .message_topbar .post_date p {
+  color: #999999;
+}
+.dashboard .message_box .message_contentDv .review_comments {
+  color: #fff;
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+@media (max-width: 575px) {
+  .dashboard .message_box {
+    display: block;
+    text-align: center;
+  }
+  .dashboard .message_box .img_box {
+    margin: 0 0 20px 0;
+  }
+  .dashboard .message_box .message_contentDv .message_topbar {
+    display: block;
+  }
+}
+/* Seller Message Css Start Here */
+/* Inbox Css End Here */

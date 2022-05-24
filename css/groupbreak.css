@@ -1,0 +1,269 @@
+/* Group Break Css Start Here */
+.group-break {
+    background: #000;
+    padding: 70px 0;
+}
+.group-break .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.group-break .top-header .titleDv h3 {
+    margin: 0;
+}
+.group-break .top-header .categoriesLable ul.categories-name {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.group-break .top-header .categoriesLable ul.categories-name li {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 130px;
+    text-align: center;
+    padding: 9px 0;
+    margin-right: 25px;
+}
+.group-break .top-header .categoriesLable ul.categories-name li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.group-break .top-header .categoriesLable ul.categories-name li:last-child {
+    margin: 0;
+}
+.group-break .head h4.title {
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    line-height: 32px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+.group-break .amount {
+    display: flex;
+    padding-bottom: 20px;
+}
+.group-break .amount h4 {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.group-break .amount  .property {
+    margin-right: 10px;
+}
+.group-break .description p {
+    font-size: 15px;
+}
+.group-break .group-img {
+    position: relative;
+}
+.group-break .group-img .img-box {
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+.group-break .group-img .img-box figure img {
+    width: 100%;
+}
+.group-break .group-img .products-items {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    padding-left: 30px;
+}
+.group-break .group-img .products-items ul.items {
+    list-style: none;
+}
+.group-break .group-img .products-items ul.items li {
+    margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+    .group-break .head h4.title {
+        padding-right: 0;
+        font-size: 17px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+    .group-break .amount {
+        padding-bottom: 5px;
+    }
+    .group-break .amount h4 {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .group-break .description p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media (max-width: 769px) {
+    .group-break .top-header .categoriesLable ul.categories-name li {
+        width: 85px;
+        padding: 3px 0;
+        margin-right: 5px;
+    }
+    .group-break .top-header .categoriesLable ul.categories-name li a {
+        font-size: 10px;
+    }
+    .group-break .top-header .titleDv h3 {
+        margin: 0;
+        font-size: 35px;
+    }
+}
+@media (max-width: 576px) {
+    .group-break {
+        padding: 40px 0;
+    }
+    .group-break .top-header {
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .group-break .top-header .titleDv h3 {
+        padding-bottom: 10px;
+    }
+    .group-break .top-header .categoriesLable ul.categories-name li {
+        width: 100px;
+        line-height: 20px;
+    }
+    .group-break .group-img .products-items ul.items li {
+        margin-bottom: 20px;
+    }
+    .group-break .head {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .group-break .top-header .categoriesLable ul.categories-name {
+        display: block;
+    }
+    .group-break .top-header .categoriesLable ul.categories-name li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 321px) {
+    .group-break .top-header .categoriesLable ul.categories-name li {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+/* Group Break Css Start Here */
+
+/* Available Section Css Start Here */
+.available-team {
+    background: #000;
+    padding: 60px 0;
+}
+.available-team .head {
+    padding-bottom: 10px;
+}
+.available-team table {
+    width: 100%;
+}
+.available-team table tr.top-bar {
+    background: #fff !important;
+}
+.available-team table tr.top-bar th {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-size: 24px;
+    font-weight: 500;
+}
+.available-team table tr {
+    height: 50px;
+}
+.available-team table tr:nth-child(odd) {
+    background: #0D0D0D;
+}
+.available-team table tr td {
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.available-team table tr td button {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-weight: 600;
+    border-radius: 0 !important;
+    padding: 4px 0;
+    width: 60px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border: 1px solid;
+    transition: 0.5s;
+}
+.available-team table tr td button:hover {
+    background: #fff;
+    color: #000;
+}
+.available-team .nav-tabs {
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.available-team .nav-tabs .nav-link {
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 0px;
+    border: 1px solid #fff;
+    width: 150px;
+}
+.available-team .nav-tabs .nav-link.active {
+    color: #000;
+    background: #fff;
+}
+.available-team .nav-tabs .nav-link:first-child {
+    margin-right: 25px;
+}
+.available-team .nav-tabs .nav-link:last-child {
+    margin-left: 10px;
+}
+@media (max-width: 769px) {
+    .available-team table tr.top-bar th {
+        font-size: 18px;
+    }
+    .available-team table tr td {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .available-team {
+        padding: 40px 0;
+    }
+    .available-team .nav-tabs {
+        padding-bottom: 30px;
+    }
+    .available-team .head h2.title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .available-team table {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 321px) {
+    .available-team .nav-tabs .nav-link:last-child {
+        margin-left: 0px;
+    }
+    .available-team .nav-tabs .nav-link:first-child {
+        margin-right: 5px;
+    }
+    .available-team .nav-tabs .nav-link {
+        width: 120px;
+    }
+}
+/* Available Section Css Start Here */

@@ -1,0 +1,21 @@
+header .nav-bar-wrapper ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: right;
+}
+header .nav-bar-wrapper ul li {
+  margin: 0px 15px;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 500;
+}
+header .nav-bar-wrapper ul li a {
+  color: #fff;
+}
+header .container-fluid {
+  margin: 0px 20px;
+}
+header .container-fluid {
+  margin: 0px 20px;
+}
